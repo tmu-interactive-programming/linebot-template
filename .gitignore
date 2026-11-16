@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets — never commit these
+.env
+.env.*
+*.secret
+secrets.json
+
+# Colab / tools
+devtunnel_out.txt
+processes_out.txt
+photos/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
